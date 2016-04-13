@@ -4,7 +4,7 @@ RxJava is not good when it comes to stack-traces. When we use `observeOn` or `su
 `RxJavaStackTracer` seems to help. Especially for the existing projects. Because it provides no code invasion.
 
 ## Usage
-Register [RxJavaStackTracer](RxJavaStackTracer/app/src/main/java/stacktracer/rxjava/cookizz/com/rxjavastacktracer/RxJavaStackTracer.java) to RxJavaPlugins during creation of you app **only once**.
+Register [RxJavaStackTracer](https://github.com/Cookizz/RxJavaStackTracer/blob/master/app/src/main/java/stacktracer/rxjava/cookizz/com/rxjavastacktracer/RxJavaStackTracer.java) to RxJavaPlugins during creation of you app **only once**.
 
 	public class MyApp extends Application {
 		@Override
