@@ -6,7 +6,7 @@ import rx.exceptions.Exceptions;
 import rx.plugins.RxJavaObservableExecutionHook;
 
 /**
- * Created by duguodong on 4/11/16.
+ * Created by Cookizz on 4/11/16.
  */
 public class RxJavaStackTracer extends RxJavaObservableExecutionHook {
 
