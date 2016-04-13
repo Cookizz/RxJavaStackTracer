@@ -14,7 +14,7 @@ Register [RxJavaStackTracer](https://github.com/Cookizz/RxJavaStackTracer/blob/m
 		}
 	}
 
-After that, stack-trace will involve all the call history everywhere you subscribe an Observable even if you change thread using observeOn(), subscribeOn().	
+After that, stack-trace will involve all the call history everywhere you subscribe an Observable even if changing threads using observeOn(), subscribeOn().	
 
 ## Thanks
 The inner static class `OperatorTraceOnError` comes from [konmik](https://github.com/konmik)'s solution in [RxJava issue #3521](https://github.com/ReactiveX/RxJava/issues/3521).
