@@ -1,5 +1,5 @@
 # RxJavaStackTracer
-RxJava is not good when it comes to stack-traces. When we use `observeOn` or `subscribeOn` we get our stack-trace from the process root, erasing previous call histories.
+RxJava is not good when it comes to stack-traces. When we use `observeOn` or `subscribeOn` we get our stack-trace from the process root, erasing previous call history.
 
 `RxJavaStackTracer` seems to help. Especially for the existing projects. Because it provides no code invasion.
 
