@@ -14,7 +14,7 @@ Register [RxJavaStackTracer](https://github.com/Cookizz/RxJavaStackTracer/blob/m
 		}
 	}
 
-After that, when an Exception occurs, stack-trace will include not only the exact position but the call history from where an Observable is subscribed even if working threads were switched using observeOn(), subscribeOn().
+After that, when an Exception occurs, its stack trace will derive not only from the exact position but from where an Observable is subscribed, even if working threads were switched using observeOn(), subscribeOn().
 
 ## Thanks
 The inner static class `OperatorTraceOnError` comes from [konmik](https://github.com/konmik)'s solution in [RxJava issue #3521](https://github.com/ReactiveX/RxJava/issues/3521).
