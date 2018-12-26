@@ -1,3 +1,6 @@
+# DEPRECATED
+Please use hu.akarnokd.rxjava2.debug.RxJavaAssemblyTracking instead.
+
 # RxJavaStackTracer
 RxJava is not good when it comes to stack-traces. When we use `observeOn` or `subscribeOn` we get our stack-trace from the process root, erasing previous call history.
 
